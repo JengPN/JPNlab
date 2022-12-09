@@ -3,6 +3,7 @@ using namespace std;
 
 int main(){
     int num=1,even=-1,odd=0;
+
     while(num != 0)
     {
         cout << "Enter an integer: ";
@@ -17,8 +18,6 @@ int main(){
     }
         cout << "#Even numbers = " << even << "\n";
         cout << "#Odd numbers = " << odd;
-
-
     
     return 0;
 }
